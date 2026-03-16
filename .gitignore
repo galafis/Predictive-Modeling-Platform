@@ -5,6 +5,30 @@
 .RData
 .Renviron
 *.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
 .DS_Store
 .idea/
 .vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node
+node_modules/
